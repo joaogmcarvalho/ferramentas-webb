@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Aula - 6</title>
+<meta charset="UTF-8">
+</head>
+<body>
+<form method="post" action="aula6.php">
+<fieldset><legend>Cadastro de Cliente</legend>
+<!--
+  placeholder =dica para o usuario. 
+  fieldset = agrupamento de dados.
+  legend = legenda. 
+  input type = para criar a caixa de entrada. 
+  maxlength = para definir a quantidade de letras. 
+  size = tamanho do input.
+  label for = para criar um rotulo ou etiqueta e serve para clicar para habilitar a caixa de texto.
+  name = para banco de dados
+  radio = para seleçao simples
+  date = para datas
+  checked = ja deixa uma box marcada
+  checkbox = multiplas seleçoes
+-->
+<p><label for="n">Nome:<input type="text" placeholder="Nome Completo" maxlength=100 size=50 id="n" name="nome" /></label></p>
+<p><label for="e">Endereço:<input type="text" placeholder="Ex:Rua,Avenida..." maxlength=100 size=50 id="e" name="endereço" /></label></p>
+<p><label for="m">E-mail:<input type="email" placeholder="Digite seu email" maxlength=100 size=50 id="m" name="email" /></label></p>
+<p><label for="s">Senha:<input type="password" placeholder="8 digitos" maxlength=8 size=50 id="s" name="senha" /></label></p>
+<p><label for="t">Telefone:<input type="text" placeholder="DD + numero" maxlength=11 size=50 id="t" name="telefone" /></label></p>
+<p><label for="d">Data de Nascimento:<input type="date" name="data" /></label></p>
+<p><label for="x">Sexo:<input type="radio" name="sexo" id="x" />Feminino</label>
+<label for="f"><input type="radio" name="sexo" id="f" />Masculino</label></p>
+<fieldset><legend>Area de Interesse</legend>
+<p><label for="j"><input type="checkbox" id="j" checked />Esporte</p>
+<p><label for="l"><input type="checkbox" id="l" />Lazer</p>
+<p><label for="i"><input type="checkbox" id="i" />Informatica</p>
+<p><label for="a"><input type="checkbox" id="a" />Dança</p>
+<p><label for="o"><input type="checkbox" id="o" />Outros</p>
+</fieldset>
+</fieldset>
+</body>
+</html>
