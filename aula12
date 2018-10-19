@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+<head>
+<title>Aula 12</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="aula12.css">
+</head>
+<body>
+<form method="post">
+<fieldset id="ident"><legend>Identificação do Usuário</legend>
+<p><label for="a">Nome:<input type="text" placeholder="Nome Completo" maxlength=100 size=50 id="a" name="nome" /></label></p>
+<p><label for="b">Senha:<input type="password" placeholder="8 digitos" maxlength=8 size=50 id="b" name="senha" /></label></p>
+<p><label for="c">E_mail:<input type="text" placeholder="exemplo@hotmail.com" maxlength=100 size50 id="c" name="e_mail" /></label></p>
+<fieldset id="sexo"><legend>Sexo:</legend>
+<p><label for="d">Feminino<input type="radio" name="sexo" id="d" /></label></p>
+<p><label for="e">Masculino<input type="radio" name="sexo" id="e" /></label></p>
+</fieldset>
+<p><label for="f">Data de Nascimento<input type="date" id="f" name="data" /></label></p>
+</fieldset>
+<fieldset id="end"><legend>Endereço do Ususário</legend>
+<p><label for="g">Logradouro<input type="text" placeholder="Rua,Avenida,Travessa" maxlength=200 size=50 name="Logradouro" id="g"/></label></p>
+<p><label for="h">Numero<input type="text" maxlength=40 size=50 name="Numero" id="h" /></label></p>
+<p><label for="i">Cidade<input type="text" placeholder="Cidade" maxlength=200 size=50 name="Cidade" id="i"/></label></p>
+<p><label for="j">Estado<select>
+<option>RJ</option>
+<option>SP</option>
+<option>MG</option>
+<option>ES</option>
+</select>
+</fieldset>
+<fieldset><legend>Mensagem do Ususário</legend>
+<p>Grau de Risco: Min <input type="range" min=0 max=40 /> Max</P>
+<textarea rows=10 cols=50></textarea>
+</body>
+</html>
