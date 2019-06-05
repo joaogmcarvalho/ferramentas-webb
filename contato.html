@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contato</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="contato.css">
+<script src="contato.js"></script>
+</head>
+<body>
+
+<div id="container">
+        <nav>
+            <img src="contato.png" />
+          <h1>Contato</h1>
+		  <br>
+		  <h3>Para esclarecer qualquer dúvida, fazer reclamações, elogios ou sugestões preencha o formulário a seguir!</h3>
+        </nav>
+      <div id="cabecalho">
+		<fieldset><legend>Pesquisa Pizzaria JVF</legend>
+		<p class="nome">
+            <label for="nome">Nome:</label>
+			<input type="text" id="nomeid" placeholder="Nome Completo" required="required" name="nome" />
+        </p>
+        <p class="fone">
+            <label for="fone">Fone:</label>
+			<input type="text" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" />
+        </p>
+        <p>
+			<label for="email">Email:</label>
+			<input type="email" id="emailid" placeholder="fulano@mail.com" required="required" name="email" />
+        </p>
+        <p>
+			<label id="msg" for="email">Mensagem:</label>
+		</p>
+		<p>
+            <textarea placeholder="Deixe sua opnião, elogio, sugestão ou reclamação!"></textarea>
+        </p>
+        <p class="submit">
+            <input type="submit" onclick="Enviar();" value="Enviar" />
+        </p>
+ 
+    </form>
+	</fieldset>
+      </div>
+		
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
